@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    background-image: url(limage.jpg);
+
+}
+
+header {
+   
+    color: #da5798;
+    width: 360;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px ;
+    box-shadow: 10px 7px 20px rgb(231, 30, 141);
+}
+
+nav {
+    background: rgb(102, 158, 231);
+    width: 360;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 200px ;
+    box-shadow: 10px 7px 20px rgb(231, 30, 141);
+    animation-name: bounce;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+nav > a {
+    color: rgb(231, 28, 197);
+    text-decoration: none;
+    padding: 8px 16x;
+    border-radius: 22px;
+}
+
+nav > a:hover {
+    transition: 0.25s;
+    background-color: rgb(56, 130, 209);
+    color: rgb(171, 24, 216);
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #262f38;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    
+    color: #dd097e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
